@@ -1,0 +1,49 @@
+body{
+    font-family: 'JetBrains Mono', monospace;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table, th, td{
+    border: 2px solid rgb(67, 91, 228);
+}
+
+tr :hover{
+    background-color: rgb(111, 243, 250);
+}
+
+input[type="numer"]{
+    width: 40px;
+}
+
+table .branco{
+    border: none;
+}
+
+table tbody .pontosIni{
+    width: 35px;
+    text-align: center;
+}
+
+fieldset .outroField{
+    border-right: 20px solid rgb(67, 91, 228);
+    border-left: 1px solid rgb(67, 91, 228);
+}
+
+fieldset{
+    padding: 20px;
+    margin: 20px 0;
+    border: 3px solid rgb(67, 91, 228);
+    border-left: 20px solid rgb(67, 91, 228);
+    display: inline-block;
+}
+
+legend{
+    background-color: rgb(67, 91, 228);
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 0.04em;
+    padding: 10px;
+}

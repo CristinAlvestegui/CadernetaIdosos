@@ -1,0 +1,85 @@
+<!Doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../CSS/estiloPeso.css"></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Battambang&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div>
+            <fieldset class="fielum">
+                <legend>Controle de Peso</legend>
+                <table width="90%">
+                    <thead>
+                        <tr>
+                            <td><strong>Controle de perda de peso</strong></td>
+                            <th colspan="2" class="pesoSize">20<input type="number" class="inpuAno"></th>
+                            <th colspan="2" class="pesoSize">20<input type="number" class="inpuAno"></th>
+                            <th colspan="2" class="pesoSize">20<input type="number" class="inpuAno"></th>
+                            <th colspan="2" class="pesoSize">20<input type="number" class="inpuAno"></th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <th>S</th>
+                            <th>N</th>
+                            <th>S</th>
+                            <th>N</th>
+                            <th>S</th>
+                            <th>N</th>
+                            <th>S</th>
+                            <th>N</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Você apresentou <strong>perda de peso não intencional*</strong>de, no mínimo, 4.5kg ou de 5% do seu peso corporal no ultimo ano?</th>
+                            <td><input type="radio" name="peso1" value="sim"></td>
+                            <td><input type="radio" name="peso1" value="não"></td>
+                            <td><input type="radio" name="peso2" value="sim"></td>
+                            <td><input type="radio" name="peso2" value="não"></td>
+                            <td><input type="radio" name="peso3" value="sim"></td>
+                            <td><input type="radio" name="peso3" value="não"></td>
+                            <td><input type="radio" name="peso4" value="sim"></td>
+                            <td><input type="radio" name="peso4" value="não"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <img src="../fotos/controlPeso.PNG">
+            </fieldset>
+        </div><br>
+        <div id="tabela"><br>
+            <table id="IMC">
+                <thead>
+                    <tr>
+                        <th>Índice antropométrico</th>
+                        <th>Pontos de corte</th>
+                        <th>Classificação do estado nutricional</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th rowspan="4">IMC</th>
+                    </tr>
+                    <tr>
+                        <td> < 22kg/m² </td>
+                        <td>Baixo Peso</td>
+                    </tr>
+                    <tr>
+                        <td> > 22 e < 22kg/m²</td>
+                        <td>Peso adequado</td>
+                    </tr>
+                    <tr>
+                        <td> > 27kg/m²</td>
+                        <td>Sobrepeso</td>
+                    </tr>
+                </tbody>
+            </table>
+    
+            <p><strong>*</strong>Perda de peso não intencional é aquele emagrecimento que não aconteceu por decisão<br>
+            própria. Caso isso ocorra, deve-se investigar as possíveis causas</p>
+        </div>
+        
+    </body>
+</html>

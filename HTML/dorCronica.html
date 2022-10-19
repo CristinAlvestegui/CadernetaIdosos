@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Identificação de Dor Crõnica</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../CSS/estilodor.css"></link>
+    </head>
+
+    <body>
+        <form>
+            <fieldset>
+                <legend class="legendtitulo">Identificação de dor Crônica</legend>
+                <p>A presença de dor crônica ou de longa duração não é "normal da idade"
+                   e sua presença deve ser investigada rotineiramente. Após o esclarecimento
+                   das possíveis causas, o tratamento deverá ser feito prontamente. 
+                </p>
+                <table width="100%">
+                    <thead>
+                        <tr>
+                            <td rowspan="2"></td>
+                            <th colspan="2" class="inpuAno">20<input type="number"></th>
+                            <th colspan="2" class="inpuAno">20<input type="number"></th>
+                            <th colspan="2" class="inpuAno">20<input type="number"></th>
+                            <th colspan="2" class="inpuAno">20<input type="number"></th>
+                            <th colspan="2" class="inpuAno">20<input type="number"></th>
+                        </tr>
+                        <tr>
+                            
+                            <th>S</th>
+                            <th>N</th>
+                            <th>S</th>
+                            <th>N</th>
+                            <th>S</th>
+                            <th>N</th>
+                            <th>S</th>
+                            <th>N</th>
+                            <th>S</th>
+                            <th>N</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Você tem alguma dor com duração igual ou superioro a 3 meses?</th>
+                            <td><input type="radio" name="peso1" value="sim"></td>
+                            <td><input type="radio" name="peso1" value="não"></td>
+                            <td><input type="radio" name="peso2" value="sim"></td>
+                            <td><input type="radio" name="peso2" value="não"></td>
+                            <td><input type="radio" name="peso3" value="sim"></td>
+                            <td><input type="radio" name="peso3" value="não"></td>
+                            <td><input type="radio" name="peso4" value="sim"></td>
+                            <td><input type="radio" name="peso5" value="não"></td>
+                            <td><input type="radio" name="peso6" value="não"></td>
+                            <td><input type="radio" name="peso7" value="não"></td>
+                        </tr>
+                        <tr>
+                            <th>A dor é como um choque ou uma queimação?</th>
+                            <td><input type="radio" name="peso1" value="sim"></td>
+                            <td><input type="radio" name="peso1" value="não"></td>
+                            <td><input type="radio" name="peso2" value="sim"></td>
+                            <td><input type="radio" name="peso2" value="não"></td>
+                            <td><input type="radio" name="peso3" value="sim"></td>
+                            <td><input type="radio" name="peso3" value="não"></td>
+                            <td><input type="radio" name="peso4" value="sim"></td>
+                            <td><input type="radio" name="peso5" value="não"></td>
+                            <td><input type="radio" name="peso6" value="não"></td>
+                            <td><input type="radio" name="peso7" value="não"></td>
+                        </tr>
+                        <tr>
+                            <th>A dor piora ao andar?</th>
+                            <td><input type="radio" name="peso1" value="sim"></td>
+                            <td><input type="radio" name="peso1" value="não"></td>
+                            <td><input type="radio" name="peso2" value="sim"></td>
+                            <td><input type="radio" name="peso2" value="não"></td>
+                            <td><input type="radio" name="peso3" value="sim"></td>
+                            <td><input type="radio" name="peso3" value="não"></td>
+                            <td><input type="radio" name="peso4" value="sim"></td>
+                            <td><input type="radio" name="peso5" value="não"></td>
+                            <td><input type="radio" name="peso6" value="não"></td>
+                            <td><input type="radio" name="peso7" value="não"></td>
+                        </tr>
+                        <tr>
+                            <th>A dor melhora como o repouso?</th>
+                            <td><input type="radio" name="peso1" value="sim"></td>
+                            <td><input type="radio" name="peso1" value="não"></td>
+                            <td><input type="radio" name="peso2" value="sim"></td>
+                            <td><input type="radio" name="peso2" value="não"></td>
+                            <td><input type="radio" name="peso3" value="sim"></td>
+                            <td><input type="radio" name="peso3" value="não"></td>
+                            <td><input type="radio" name="peso4" value="sim"></td>
+                            <td><input type="radio" name="peso5" value="não"></td>
+                            <td><input type="radio" name="peso6" value="não"></td>
+                            <td><input type="radio" name="peso7" value="não"></td>
+                        </tr>
+                    </tbody>
+                </table><br>
+
+                <p>Informe ao profissional de saúde a localização e a intensidade
+                da dor crônica de maior intensidade ou que mais o(a) prejudica, 
+                classificando-a de 0 a 10, conforme a escala de intensidade da dor mostrada abaixo:</p>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>DATA: <input type="date"></th>
+                            <th>Local da dor: <input></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Intensidade da Dor:</th>
+                            <td> <div id="escalalabel"><p><span id="leve">Leve</span> Moderada   <span id="intensa">Intensa</span></p></div>
+                                <div id="escalador"> 
+                                    <input type="radio" name="escala" id="intensa10" value="intensa10"><label for="intensa10">10</label>
+                                    <input type="radio" name="escala" id="intensa9" value="intensa9"><label for="intensa9">9</label>
+                                    <input type="radio" name="escala" id="intensa8" value="intensa8"><label for="intensa8">8</label>
+                                    <input type="radio" name="escala" id="moderada7" value="moderada7"><label for="moderada7">7</label>
+                                    <input type="radio" name="escala" id="moderada6" value="moderada6"><label for="moderada6">6</label>
+                                    <input type="radio" name="escala" id="moderada5" value="moderada5"><label for="moderada5">5</label>
+                                    <input type="radio" name="escala" id="moderada4" value="moderada4"><label for="moderada4">4</label>
+                                    <input type="radio" name="escala" id="moderada3" value="moderada3"><label for="moderada3">3</label>
+                                    <input type="radio" name="escala" id="leve2" value="leve2"><label for="leve2">2</label>
+                                    <input type="radio" name="escala" id="leve1" value="leve1"><label for="leve1">1</label>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table><br>
+            
+                <table>
+                    <thead>
+                        <tr>
+                            <th>DATA: <input type="date"></th>
+                            <th>Local da dor: <input></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Intensidade da Dor:</th>
+                            <td> <div id="escalalabel"><p><span id="leve">Leve</span> Moderada   <span id="intensa">Intensa</span></p></div>
+                                <div id="escalador"> 
+                                    <input type="radio" name="escala1" id="intensa10" value="intensa10"><label for="intensa10">10</label>
+                                    <input type="radio" name="escala1" id2="intensa9" value="intensa9"><label for="intensa9">9</label>
+                                    <input type="radio" name="escala1" id="intensa8" value="intensa8"><label for="intensa8">8</label>
+                                    <input type="radio" name="escala1" id="moderada7" value="moderada7"><label for="moderada7">7</label>
+                                    <input type="radio" name="escala1" id="moderada6" value="moderada6"><label for="moderada6">6</label>
+                                    <input type="radio" name="escala1" id="moderada5" value="moderada5"><label for="moderada5">5</label>
+                                    <input type="radio" name="escala1" id="moderada4" value="moderada4"><label for="moderada4">4</label>
+                                    <input type="radio" name="escala1" id="moderada3" value="moderada3"><label for="moderada3">3</label>
+                                    <input type="radio" name="escala1" id="leve2" value="leve2"><label for="leve2">2</label>
+                                    <input type="radio" name="escala1" id="leve1" value="leve1"><label for="leve1">1</label>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table><br>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>DATA: <input type="date"></th>
+                            <th>Local da dor: <input></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Intensidade da Dor:</th>
+                            <td> <div id="escalalabel"><p><span id="leve">Leve</span> Moderada   <span id="intensa">Intensa</span></p></div>
+                                <div id="escalador"> 
+                                    <input type="radio" name="escala2" id="intensa10" value="intensa10"><label for="intensa10">10</label>
+                                    <input type="radio" name="escala2" id="intensa9" value="intensa9"><label for="intensa9">9</label>
+                                    <input type="radio" name="escala2" id="intensa8" value="intensa8"><label for="intensa8">8</label>
+                                    <input type="radio" name="escala2" id="moderada7" value="moderada7"><label for="moderada7">7</label>
+                                    <input type="radio" name="escala2" id="moderada6" value="moderada6"><label for="moderada6">6</label>
+                                    <input type="radio" name="escala2" id="moderada5" value="moderada5"><label for="moderada5">5</label>
+                                    <input type="radio" name="escala2" id="moderada4" value="moderada4"><label for="moderada4">4</label>
+                                    <input type="radio" name="escala2" id="moderada3" value="moderada3"><label for="moderada3">3</label>
+                                    <input type="radio" name="escala2" id="leve2" value="leve2"><label for="leve2">2</label>
+                                    <input type="radio" name="escala2" id="leve1" value="leve1"><label for="leve1">1</label>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table><br>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>DATA: <input type="date"></th>
+                            <th>Local da dor: <input></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Intensidade da Dor:</th>
+                            <td> <div id="escalalabel"><p><span id="leve">Leve</span> Moderada   <span id="intensa">Intensa</span></p></div>
+                                <div id="escalador"> 
+                                    <input type="radio" name="escala3" id="intensa10" value="intensa10"><label for="intensa10">10</label>
+                                    <input type="radio" name="escala3" id="intensa9" value="intensa9"><label for="intensa9">9</label>
+                                    <input type="radio" name="escala3" id="intensa8" value="intensa8"><label for="intensa8">8</label>
+                                    <input type="radio" name="escala3" id="moderada7" value="moderada7"><label for="moderada7">7</label>
+                                    <input type="radio" name="escala3" id="moderada6" value="moderada6"><label for="moderada6">6</label>
+                                    <input type="radio" name="escala3" id="moderada5" value="moderada5"><label for="moderada5">5</label>
+                                    <input type="radio" name="escala3" id="moderada4" value="moderada4"><label for="moderada4">4</label>
+                                    <input type="radio" name="escala3" id="moderada3" value="moderada3"><label for="moderada3">3</label>
+                                    <input type="radio" name="escala3" id="leve2" value="leve2"><label for="leve2">2</label>
+                                    <input type="radio" name="escala3" id="leve1" value="leve1"><label for="leve1">1</label>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table><br>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>DATA: <input type="date"></th>
+                            <th>Local da dor: <input></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Intensidade da Dor:</th>
+                            <td> <div id="escalalabel"><p><span id="leve">Leve</span> Moderada   <span id="intensa">Intensa</span></p></div>
+                                <div id="escalador"> 
+                                    <input type="radio" name="escala5" id="intensa10" value="intensa10"><label for="intensa10">10</label>
+                                    <input type="radio" name="escala5" id="intensa9" value="intensa9"><label for="intensa9">9</label>
+                                    <input type="radio" name="escala5" id="intensa8" value="intensa8"><label for="intensa8">8</label>
+                                    <input type="radio" name="escala5" id="moderada7" value="moderada7"><label for="moderada7">7</label>
+                                    <input type="radio" name="escala5" id="moderada6" value="moderada6"><label for="moderada6">6</label>
+                                    <input type="radio" name="escala5" id="moderada5" value="moderada5"><label for="moderada5">5</label>
+                                    <input type="radio" name="escala5" id="moderada4" value="moderada4"><label for="moderada4">4</label>
+                                    <input type="radio" name="escala5" id="moderada3" value="moderada3"><label for="moderada3">3</label>
+                                    <input type="radio" name="escala5" id="leve2" value="leve2"><label for="leve2">2</label>
+                                    <input type="radio" name="escala5" id="leve1" value="leve1"><label for="leve1">1</label>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table><br>
+                
+            </fieldset>
+        </form>
+    </body>
+</html>

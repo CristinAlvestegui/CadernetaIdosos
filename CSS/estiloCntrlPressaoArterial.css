@@ -1,0 +1,37 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  td,th {
+    text-align: center;
+    
+    border-radius: 5px;
+  }
+  
+  table {
+    margin: auto;
+  }
+  
+  input{
+    padding: 5px 5px 5px 15px;
+    border: 1px solid #89bbe8;
+    border-radius: 4px;
+  }
+  
+  fieldset {
+    padding: 5px 5px 5px 15px;
+    border-radius: 4px;
+    border: 3px solid #89bbe8;
+    border-left: 20px solid #89bbe8;
+  }
+  
+  legend {
+    border: 3px solid #89bbe8;
+    border-radius: 10px;
+  }
+  
+  p, label{
+    color:red;
+    background-color: yellow;
+    text-align: center;
+  }

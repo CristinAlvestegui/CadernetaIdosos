@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../CSS/estilocuidador.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Battambang&display=swap" rel="stylesheet">
+    <body>
+        <header>
+
+        </header>
+        <div>
+            <fieldset>
+                <legend>Cadastro do Cuidador</legend>
+                <form>
+                    <!--Dados Pessoais-->
+                    <label for="cpfcuidador">C.P.F:</label>
+                    <input type="number" id="cpfcuidador" name="cpf" placeholder="XXX.XXX.XXX-XX" required/><br><br>
+                    <label for="dataNasciCuidador">Data de Nascimiento:</label>
+                    <input type="date" id="dataNasciCuidador" class="estiloInput" name="dataNasci" placeholder="DD/MM/AA" required/><br><br>
+                    <label for="rgcuidador">RG:</label>
+                    <input type="number" id="rgcuidador" name="rg" required/><br><br>
+                    <label for="nomeCuidador">Nome:</label>
+                    <input type="text" id="nomeCuidador" name="nome" required/>
+                    <label for="sobreNomeCuidador">Sobre Nome:</label>
+                    <input type="text" id="sobreNomeCuidador" name="sobrenome" required><br><br>
+
+                    <p><strong>Sexo:</strong></p>
+                    <input type="radio" id="sexoFeme" name="sexo" value="femenino">
+                    <label for="sexoFeme">Femenino</label>
+                    <input type="radio" id="sexoMascu" name="sexo" value="masculino">
+                    <label for="sexoMascu">Masculino</label>
+                    <input type="radio" id="sexoTransg" name="sexo" value="transgenero">
+                    <label for="sexoTransg">Transgênero</label>
+                    <input type="radio" id="sexoNeutro" name="sexo" value="gêneroNeutro">
+                    <label for="sexoNeutro">Gênero Neutro</label>
+                    <input type="radio" id="sexoNBinario" name="sexo" value="naobinario">
+                    <label for="sexoNBinario">Não-Binario</label>
+                    <input type="radio" id="sexoAGenero" name="sexo" value="agenero">
+                    <label for="sexoAGenero">Agênero</label><br><br>
+
+                    <label for="estadoCuidador">Estado:</label>
+                    <select name="estados" id="estadoCuidador">
+                        <option value="SaoPaulo">São Paulo</option>
+                        <option value="MatroGrosso">Matro Grosso</option>
+                        <option value="MinaGerais">MinaGerais</option>
+                        <option value="Bahia">Bahia</option>
+                        <option value="Parana">Paraná</option>
+                        <option value="Goias">Goiás</option>
+                        <option value="Ceara">Ceará</option>
+                        <option value="SantaCatarina">Santa Catarina</option>
+                        <option value="RioGrandedoSul">Rio Grande do Sul</option>
+                        <option value="RiodeJaneiro">Rio de Janeiro</option>
+                        <option value="Pernanbuco">Pernanbuco</option>
+                        <option value="Para">Pará</option>
+                        <option value="Amazonas">Amazonas</option>
+                        <option value="EspirituSanto">Espiritu Santo</option>
+                        <option value="Maranhão">Maranhão</option>
+                        <option value="Rondonia">Rondônia</option>
+                        <option value="Piaui">Piauí</option>
+                        <option value="RioGrandedoNorte">Rio Grande do Norte</option>
+                        <option value="Alagoas">Alagoas</option>
+                    </select>
+            
+                    <label for="cidadeCuidador">Cidade:</label>
+                    <input type="text" id="cidadeCuidador" name="cidade" required><br><br>
+
+                    <h3>Envie su Foto</h3>
+                    <a href="#"><input type="file" accept=".jpg,.pdf,.png,.jpge" id="loadFoto"></input></a>
+                     PNG/JPG/JPGE/PDF
+                    <br><br>
+
+                    <label for="teleCuidador">Telefone:</label>
+                    <input type="telephone" id="teleCuidador" name="telefone" placeholder="+55(11)XXXXX-XXXX" required><br><br>
+                    <label for="emailCuidador">E-mail:</label>
+                    <input type="email" id="emailCuidador" name="email" placeholder="exemplo@exemplo.com" required><br><br>
+                    <label for="horasCuidador">Horários Disponiveis</label>
+                    <input type="time" id="horasCuidador" name="horarios" placeholder="Formato 24hrs" required>
+                    <input type="time" id="horasCuidador" name="horarios" placeholder="Formato 24hrs" required>
+                    <input type="time" id="horasCuidador" name="horarios" placeholder="Formato 24hrs" required><br><br>
+
+
+                    <h3>Enviar Currículo</h3>
+                    <a href="#"><input type="file" accept=".doc,.docx,.pdf" placeholder="Escolher Ficheiro"></input></a><br><br>
+                    <input type="checkbox" id="termos"><!--aqui vamos colocar uma caixinha para marcar-->
+                    <label for="termos">concordo com a politica de privacidade</label><br><br>
+                    <a href="#"><input type="submit" value="Salvar"></input></a>
+                </form>
+            </fieldset>
+        </div>
+    </body>
+</html>

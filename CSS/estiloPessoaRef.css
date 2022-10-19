@@ -1,0 +1,66 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, p{
+    text-align: center;
+}
+
+td,th {
+    text-align: center;
+    border: 1px solid #89bbe8;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 5px;
+}
+
+table {
+    margin: auto;
+}
+
+input[type=text], input[type=date] {
+    padding: 5px 5px 5px 15px;
+    border: 1px solid #89bbe8;
+    border-radius: 4px;
+    width: 160px;
+}
+
+#tNomeDaMãe,#tUF,#tPais,#tDeficiencia {
+    width: 230px;
+}
+
+#tUnidadeSaude,
+#tAlergia {
+    width: 280px
+}
+
+tr :hover {
+    background-color: #89bbe8;
+}
+
+fieldset {
+    padding: 5px 5px 5px 15px;
+    border: 1px solid #89bbe8;
+    border-radius: 4px;
+    border: 3px solid #89bbe8;
+    border-left: 20px solid #89bbe8;
+}
+
+legend {
+    border: 3px solid #89bbe8;
+    border-radius: 10px;
+}
+
+button{
+    text-align: center;
+    font-size: 15px;
+    background-color: #CAD9C2 ;
+    padding: 5px;
+    border-radius: 4px;
+    border: 0;
+    width: 150px;
+}
+
+fieldset{
+    margin: auto 400px;
+}
