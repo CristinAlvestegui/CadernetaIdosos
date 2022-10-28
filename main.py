@@ -45,23 +45,8 @@ def consultarTudo():
     if request.method == 'POST':
         this.codigo   = request.form['tNovoCodigo']
         this.msg = this.modelo.consultar(this.codigo)
-    return render_template('consultar.html', titulo="Consultar", dados=this.msg)
+    return render_template('home.html', titulo="Consultar", dados=this.msg)
 
-@pessoa.route('/atualizar.html', methods=['GET','POST'])
-def atualizarDado():
-    if request.method == 'POST':
-        this.codigo = request.form['tCodigo']
-        this.campo  = request.form['tCampo']
-        this.dado   = request.form['tDado']
-        this.msg    = this.modelo.atualizar(this.codigo, this.campo, this.dado)
-    return render_template('atualizar.html', titulo="Atualizar", dados=this.msg)
-
-@pessoa.route('/excluir.html', methods=['GET','POST'])
-def excluirDado():
-    if request.method == 'POST':
-        this.codigo = request.form['tCodigo']
-        this.msg = this.modelo.excluir(this.codigo)
-    return render_template('excluir.html', titulo="Excluir", dados=this.msg)
 
 if __name__ == '__main__':
     pessoa.run(debug=True, port=5000)
