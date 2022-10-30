@@ -12,12 +12,13 @@
   table {
     margin: auto;
   }
-  
-  input{
+
+  input[type="numer"]{
+    width: 40px;
     padding: 5px 5px 5px 15px;
     border: 1px solid #89bbe8;
     border-radius: 4px;
-  }
+}
   
   fieldset {
     padding: 5px 5px 5px 15px;
