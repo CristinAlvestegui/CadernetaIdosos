@@ -38,13 +38,13 @@ fieldset{
     width: 60%;
     padding: 20px;
     margin: 30px 170px;
-    border: 3px solid rgb(67, 91, 228);
-    border-left: 20px solid rgb(67, 91, 228);
+    border: 3px solid #89bbe8;
+    border-left: 20px solid #89bbe8;
     display: inline-block;
 }
 
 legend{
-    background-color: rgb(67, 91, 228);
+    background-color: #89bbe8;
     text-align: center;
     font-size: 28px;
     letter-spacing: 0.04em;
