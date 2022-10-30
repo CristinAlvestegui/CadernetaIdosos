@@ -27,14 +27,17 @@ table tbody .pontosIni{
     text-align: center;
 }
 
-fieldset .outroField{
-    border-right: 20px solid rgb(67, 91, 228);
-    border-left: 1px solid rgb(67, 91, 228);
+fieldset .simeNao{
+    border: 2px solid rgb(67, 91, 228);
+    width: 70%;
+    margin: 3px 50px;
+    
 }
 
 fieldset{
+    width: 60%;
     padding: 20px;
-    margin: 20px 0;
+    margin: 30px 170px;
     border: 3px solid rgb(67, 91, 228);
     border-left: 20px solid rgb(67, 91, 228);
     display: inline-block;
@@ -47,3 +50,14 @@ legend{
     letter-spacing: 0.04em;
     padding: 10px;
 }
+
+label{
+    font-size: 14px;
+}
+ /* input[type="checkbox"]{
+    if(#pergumsim:active){
+        só uma checkbox pode estar ativa...n as duas ao mesmo tempo.
+    }
+ } ideias muito loucas! kkkkk */
+
+

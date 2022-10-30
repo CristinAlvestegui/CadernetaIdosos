@@ -49,6 +49,8 @@ fieldset {
 legend {
     border: 3px solid #89bbe8;
     border-radius: 10px;
+    background-color: #89bbe8;
+    text-align: center;
 }
 
 button{

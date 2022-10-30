@@ -5,7 +5,7 @@ table{
     border-collapse: collapse;
     text-align: center;
     padding: 20px;
-    margin: auto 300px;
+    margin: 300px auto;
 }
 
 table, th, td{
@@ -13,7 +13,7 @@ table, th, td{
 }
 
 .inpuAno{
-    width: 45px;
+    width: -10px;
 }
 
 input[type="text"]{
