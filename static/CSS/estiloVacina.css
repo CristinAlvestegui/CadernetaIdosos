@@ -1,0 +1,39 @@
+body{
+    font-family: 'JetBrains Mono', monospace;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table, th, td{
+    border: 2px solid #83C4FC;
+}
+
+tr :hover{
+    background-color: rgb(111, 243, 250);
+}
+
+input[type="numer"]{
+    width: 40px;
+}
+
+fieldset{
+    padding: 20px;
+    margin: 20px 0;
+    border: 3px solid #83C4FC;
+    border-left: 20px solid #83C4FC;
+    display: inline-block;
+}
+
+legend{
+    background-color: #83C4FC;
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 0.04em;
+    padding: 10px;
+}
+
+table .branco{
+    border: none;
+}
