@@ -50,8 +50,8 @@ def avalIdoso():
 def cadastroCuidador():
     return render_template('cadastroCuidador.html', titulo="Cadastro Cuidador")
 
-@pessoa.route('/cadastroVes')
-def cadastroVes():
+@pessoa.route('/cadastroVES')
+def cadastroVES():
     return render_template('cadastroVES.html', titulo="Cadastro VES")
 
 @pessoa.route('/cadIdoso')
