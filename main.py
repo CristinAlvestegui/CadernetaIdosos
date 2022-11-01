@@ -34,9 +34,13 @@ pessoa = Flask(__name__)
 def index():
     return render_template('index.html', titulo="Página Principal")
 
-@pessoa.route('/home')
-def menu():
-    return render_template('home.html', titulo="Home")
+@pessoa.route('/alergias')
+def alergias():
+    return render_template('alergias.html', titulo="Alergias")
+
+@pessoa.route('/ambiental')
+def ambiental():
+    return render_template('ambiental.html', titulo="Ambiental")
 
 @pessoa.route('/antropometricos')
 def antropometricos():
@@ -94,9 +98,17 @@ def dorCronica():
 def habitosVida():
     return render_template('habitosVida.html', titulo="Habitos de Vida")
 
+@pessoa.route('/home')
+def menu():
+    return render_template('home.html', titulo="Home")
+
 @pessoa.route('/pessoaRef')
 def pessoaRef():
     return render_template('pessoaRef.html', titulo="Pessoas de Referencia")
+
+@pessoa.route('/saudeBucal')
+def saudeBucal():
+    return render_template('saudeBucal.html', titulo="Saude Bucal")
 
 @pessoa.route('/vacinacao')
 def vacinacao():
