@@ -1,6 +1,16 @@
 body{
     font-family: 'JetBrains Mono', monospace;
+    background-color: #B9FFE6;
 }
+
+header{
+    font-family: 'Inter', sans-serif;
+    border: 3px solid #36A1FF;
+    width: 110%;
+    background-color: #36A1FF;
+    color: #fff;
+}
+
 table{
     border-collapse: collapse;
     text-align: center;
@@ -19,8 +29,10 @@ input[type="numer"]{
 }
 
 fieldset{
+    background-color: #fff;
+    width: 60%;
     padding: 20px;
-    margin: 20px 0;
+    margin: 4% 15%;
     border: 3px solid #83C4FC;
     border-left: 20px solid #83C4FC;
     display: inline-block;
@@ -36,4 +48,43 @@ legend{
 
 table .branco{
     border: none;
+}
+
+input[type="submit"]{
+    background-color: #F09D1A;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    border: none;
+}
+
+span{
+    display: inline-block;
+    text-align: center;
+    margin: 0px 50%;
+}
+
+p{
+    margin-top: 0;
+}
+
+#textoVacina{
+    margin-top: 0;
+    width: 60%;
+    padding: 20px;
+    margin: 3% 20%;
+    column-count: 2;
+    column-gap: 30px;
+}
+
+#tituloVacina{
+    column-span: all;
+}
+
+footer{
+    font-family: 'Inter', sans-serif;
+    background-color: #1C6491;
+    color: #fff;
+    -webkit-column-count: 3;
+    column-count: 3;
 }
