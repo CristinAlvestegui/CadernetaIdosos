@@ -9,14 +9,12 @@
 
 <body>
 
-
-    <form action="/" method="POST">
+    <form action="/cadIdoso.html" method="POST">
+        
         <fieldset>
             <legend><h3>Cadastro Idoso</h3></legend>
             <fieldset>
                 <legend>Dados Pessoais</legend>
-
-                <label>Envie uma foto recente</label><br><input type="file" accept=".jpg, .png, .jpge" id="loadFoto" required></input><br>
 
                 <label id="lNome" name="lNome">Nome Completo:</label><br>
                 <input type="text" id="tNome" name="tNovoNome" placeholder="Informe seu nome" /><br>
@@ -27,69 +25,68 @@
 
 
                 <label id="lSUS" name="lSUS">N° do Cartão SUS:</label><br>
-                <input type="text" id="tSUS" name="tNovoSUS" placeholder="Informe seu cartão SUS" /><br>
+                <input type="text" id="tSUS" name="tNovoSus" placeholder="Informe seu cartão SUS" /><br>
 
 
                 <label id="lRG" name="lRG">Documento de Identidade:</label><br>
-                <input type="text" id="tRG" name="tNovoRG" placeholder="Informe seu RG" /><br>
+                <input type="text" id="tRG" name="tNovoRg" placeholder="Informe seu RG" /><br>
 
 
                 <label id="lCPF" name="lCPF">CPF:</label><br>
-                <input type="text" id="tCPF" name="tNovoCPF" placeholder="Informe seu CPF" /><br>
+                <input type="text" id="tCPF" name="tNovoCpf" placeholder="Informe seu CPF" /><br>
 
 
                 <label id="lNomeDaMãe" name="lNomeDaMãe">Nome Completo da Mãe:</label><br>
-                <input type="text" id="tNomeDaMãe" name="tNovoNomeDaMãe"
+                <input type="text" id="tNomeDaMãe" name="tNovoNomeDaMae"
                     placeholder="Informe o nome completo da sua mãe" /><br>
 
 
                 <label id="lData" name="lData">Data de Nascimento: </label><br>
-                <input type="date" id="tData" name="tNovaData" /><br>
+                <input type="date" id="tData" name="tNovoData" /><br>
 
 
                 <label>Sexo:</label><br>
-                <label><input type="radio" name="tSexo" value="masculino">Masculino</label>
-                <label><input type="radio" name="tSexo" value="feminino">Feminino</label><br>
+                <label><input type="radio" name="tNovoSexo" value="masculino">Masculino</label>
+                <label><input type="radio" name="tNovoSexo" value="feminino">Feminino</label><br>
 
 
                 <label id="lUF" name="lUF">Munucipio de Nascimento/UF:</label><br>
-                <input type="text" id="tUF" name="tNovoUF" placeholder="Informe seu Munucipio de Nascimento" /><br>
+                <input type="text" id="tUF" name="tNovoUf" placeholder="Informe seu Munucipio de Nascimento" /><br>
 
 
                 <label>Nacionalidade:</label><br>
-                <label><input type="radio" name="tNacionalidade" value="brasileira">Brasileira</label>
-                <label><input type="radio" name="tNacionalidade" value="naturalizada">Naturalizada</label>
-                <label><input type="radio" name="tNacionalidade" value="estrangeira">Estrangeira</label><br>
+                <label><input type="radio" name="tNovoNacionalidade" value="brasileira">Brasileira</label>
+                <label><input type="radio" name="tNovoNacionalidade" value="naturalizada">Naturalizada</label>
+                <label><input type="radio" name="tNovoNacionalidade" value="estrangeira">Estrangeira</label><br>
 
                 <label>País de Nascimento:</label><br>
                 <input type="text" id="tPais" name="tNovoPais" placeholder="Informe seu País de Nascimento"><br>
 
                 <label>Sabe ler e escrever?</label><br>
-                <label><input type="radio" name="tLer" value="sim">Sim</label>
-                <label><input type="radio" name="tLer" value="nao">Não</label><br>
+                <label><input type="radio" name="tNovoLer" value="sim">Sim</label>
+                <label><input type="radio" name="tNovoLer" value="nao">Não</label><br>
 
                 <label>Escolaridade:</label><br>
-                <label><input type="radio" name="tEscolaridade" value="nenhuma">Nenhuma</label>
-                <label><input type="radio" name="tEscolaridade" value="de 1 a 3 anos">De 1 a 3 anos</label>
-                <label><input type="radio" name="tEscolaridade" value="de 4 a 7 anos">De 4 a 7 anos</label>
-                <label><input type="radio" name="tEscolaridade" value="8 anos ou mais">8 anos ou mais</label><br>
+                <label><input type="radio" name="tNovoEscolaridade" value="nenhuma">Nenhuma</label>
+                <label><input type="radio" name="tNovoEscolaridade" value="de 1 a 3 anos">De 1 a 3 anos</label>
+                <label><input type="radio" name="tNovoEscolaridade" value="de 4 a 7 anos">De 4 a 7 anos</label>
+                <label><input type="radio" name="tNovoEscolaridade" value="8 anos ou mais">8 anos ou mais</label><br>
 
                 <label>Raça/cor:</label><br>
-                <label><input type="radio" name="tRaça/cor" value="branca">Branca</label>
-                <label><input type="radio" name="tRaça/cor" value="preta">Preta</label>
-                <label><input type="radio" name="tRaça/cor" value="parda">Parda</label>
-                <label><input type="radio" name="tRaça/cor" value="amarela">Amarela</label>
-                <label><input type="radio" name="tRaça/cor" value="não declarada">Não declarada</label>
-                <label><input type="radio" name="tRaça/cor" value="indigena">Indigena</label>
-                <label><input type="radio" name="tRaça/cor" value="nenhuma">Nenhuma</label><br>
-                <label>Etnia:</label>
-                <input type="text" id="tEtnia" name="tNovaEtnia" placeholder="Informe sua etnia"><br>
+                <label><input type="radio" name="tNovoRaca" value="branca">Branca</label>
+                <label><input type="radio" name="tNovoRaca" value="preta">Preta</label>
+                <label><input type="radio" name="tNovoRaca" value="parda">Parda</label>
+                <label><input type="radio" name="tNovoRaca" value="amarela">Amarela</label>
+                <label><input type="radio" name="tNovoRaca" value="não declarada">Não declarada</label>
+                <label><input type="radio" name="tNovoRaca" value="indigena">Indigena</label>
+                <label><input type="radio" name="tNovoRaca" value="nenhuma">Nenhuma</label><br>
 
                 <label>Tem religião?</label><br>
-                <label><input type="radio" name="tReligiao" value="sim">Sim</label>
+                <label><input type="radio" name="tNovoReligiao" value="sim">Sim</label>
                 <input type="text" id="tReligiao" name="tNovaReligiao" placeholder="Informe sua religião">
-                <label><input type="radio" name="tReligiao" value="nao">Não</label><br>
-            </fieldset><br>         
+                <label><input type="radio" name="tNovoReligiao" value="nao">Não</label><br>
+            </fieldset><br>
+                     
             <fieldset>
                 <legend>Profissão</legend>
                 <label>Ocupação/Profissão Principal:</label><br>
@@ -164,7 +161,7 @@
 
             <table>
 
-                <tdead>
+                <thead>
                     <tr>
                         <td rowspan="2">Informações Sociofamiliares</td>
                         <td colspan="2">20<input type="number"></td>
@@ -186,7 +183,7 @@
                         <td>S</td>
                         <td>N</td>
                     </tr>
-                </tdead>
+                </thead>
 
                 <tbody>
                     <tr>
@@ -360,9 +357,12 @@
 
 
             <br><br>
-            <button type="button">Cadastrar Dados</button>
+            
 
         </fieldset><br>   
+
+        <button type="submit">Cadastrar Dados</button>
+
     </form>
 
 
