@@ -1,0 +1,154 @@
+body{
+    font-family: 'JetBrains Mono', monospace;
+    background-color: #B9FFE6;
+}
+
+#logo{
+    float: left;
+    margin: 0% 1%;
+}
+
+#tituLogo{
+
+  /*position: relative;
+  top: 10%;*/
+}
+
+header{
+    font-family: 'Inter', sans-serif;
+    border: 3px solid #36A1FF;
+    background-color: #36A1FF;
+    color: #fff;
+    width: 100%;
+}
+
+nav ul{
+    color: #fff;
+}
+
+nav ul li{
+    color: #fff;
+    margin: 0 20px;
+    display: inline;
+    position: relative;
+}
+
+nav{
+    color: #fff;
+    margin-right: 150px;
+    text-align: right;
+}
+
+/*Menu Drop Down */
+nav ul ul{
+    color: #fff;
+    background-color: #36A1FF;
+    display: none;
+    position: absolute;
+    left: -40;
+    width: 200px;
+    text-align: left;
+}
+
+nav ul li #conEpri{
+    line-height: 20px;
+}
+
+nav ul li:hover ul{
+    display: block;
+    line-height: 35px;
+}
+
+nav ul ul li a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    transition: backgroubd .3s;
+}
+/* */
+
+nav ul li a:hover{
+    background-color: #F09D1A;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table, th, td{
+    border: 2px solid #83C4FC;
+}
+
+tr :hover{
+    background-color: rgb(111, 243, 250);
+}
+
+input{
+    width: 40px;
+}
+
+fieldset{
+    background-color: #fff;
+    width: 60%;
+    padding: 20px;
+    margin: 4% 15%;
+    border: 3px solid #83C4FC;
+    border-left: 20px solid #83C4FC;
+    display: inline-block;
+}
+
+legend{
+    background-color: #83C4FC;
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 0.04em;
+    padding: 10px;
+}
+
+table .branco{
+    border: none;
+}
+
+span{
+    display: inline-block;
+    text-align: center;
+    margin: 0px 50%;
+}
+
+input[type="submit"]{
+    background-color: #F09D1A;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    border: none;
+}
+
+footer{
+    padding-left: 25px;
+    font-family: 'Inter', sans-serif;
+    border: 10px solid #1C6491;
+    background-color: #1C6491;
+    color: #fff;
+    column-count: 3;
+}
+
+footer li{
+    list-style-type: none;
+    font-size: 13px;
+    padding: 5px;
+}
+
+#equipe{
+    line-height: 7px;
+}
+
+#copiright{
+    float: center;
+    width: 10%;
+}

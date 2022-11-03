@@ -1,0 +1,145 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #B9FFE6;
+}
+
+#logo{
+    float: left;
+    margin: 0% 1%;
+}
+
+#tituLogo{
+
+  /*position: relative;
+  top: 10%;*/
+}
+
+header{
+    font-family: 'Inter', sans-serif;
+    border: 3px solid #36A1FF;
+    background-color: #36A1FF;
+    color: #fff;
+    width: 100%;
+}
+
+nav ul{
+    color: #fff;
+}
+
+nav ul li{
+    color: #fff;
+    margin: 0 20px;
+    display: inline;
+    position: relative;
+}
+
+nav{
+    color: #fff;
+    margin-right: 150px;
+    text-align: right;
+}
+
+/*Menu Drop Down */
+nav ul ul{
+    color: #fff;
+    background-color: #36A1FF;
+    display: none;
+    position: absolute;
+    left: -40;
+    width: 200px;
+    text-align: left;
+}
+
+nav ul li #conEpri{
+    line-height: 20px;
+}
+
+nav ul li:hover ul{
+    display: block;
+    line-height: 35px;
+}
+
+nav ul ul li a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    transition: backgroubd .3s;
+}
+/* */
+
+a{
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: #F09D1A;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table, th, td{
+    border: 2px solid #89BBE8 ;
+}
+
+.inpuAno{
+    width: 40px;
+}
+
+input[type="text"]{
+    width: 90px;
+    height: 30px;
+    border: none;
+    
+}
+
+fieldset{
+    background-color: #fff;
+    width: 60%;
+    padding: 20px;
+    margin: 1% 15%;
+    border: 3px solid #83C4FC;
+    border-left: 20px solid #83C4FC;
+    display: inline-block;
+}
+
+legend{
+    background-color: #89BBE8;
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 0.04em;
+    padding: 10px;
+}
+
+table .pesoSize{
+    width: 230px;
+ }
+
+ #tabela{
+    padding: 20px;
+    margin: auto 400px;
+    border: 3px solid #89BBE8 ;
+    display: inline-block;
+    width: 600px;
+    border-radius: 4px;
+ }
+
+ tr :hover{
+    background-color: rgb(111, 243, 250);
+}
+
+input[type="submit"]{
+    background-color: #F09D1A;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    border: none;
+}
+
+span{
+    display: inline-block;
+    text-align: center;
+    margin: 0px 45%;
+}

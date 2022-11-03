@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html LANG="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Cadastro Idoso</title>
+    <link rel="stylesheet" type="text/css" href="../static/CSS/estiloCadIdoso.css">
+</head>
+
+<body>
+
+    <form action="/cadIdoso.html" method="POST">
+        
+        <fieldset>
+            <legend><h3>Cadastro Idoso</h3></legend>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+
+                <label id="lNome" name="lNome">Nome Completo:</label><br>
+                <input type="text" id="tNome" name="tNovoNome" placeholder="Informe seu nome" /><br>
+
+
+                <label id="lApelido" name="lApelido">Apelido/Nome Social:</label><br>
+                <input type="text" id="tApelido" name="tNovoApelido" placeholder="Informe seu apelido" /><br>
+
+
+                <label id="lSUS" name="lSUS">N° do Cartão SUS:</label><br>
+                <input type="text" id="tSUS" name="tNovoSus" placeholder="Informe seu cartão SUS" /><br>
+
+
+                <label id="lRG" name="lRG">Documento de Identidade:</label><br>
+                <input type="text" id="tRG" name="tNovoRg" placeholder="Informe seu RG" /><br>
+
+
+                <label id="lCPF" name="lCPF">CPF:</label><br>
+                <input type="text" id="tCPF" name="tNovoCpf" placeholder="Informe seu CPF" /><br>
+
+
+                <label id="lNomeDaMãe" name="lNomeDaMãe">Nome Completo da Mãe:</label><br>
+                <input type="text" id="tNomeDaMãe" name="tNovoNomeDaMae"
+                    placeholder="Informe o nome completo da sua mãe" /><br>
+
+
+                <label id="lData" name="lData">Data de Nascimento: </label><br>
+                <input type="date" id="tData" name="tNovoData" /><br>
+
+
+                <label>Sexo:</label><br>
+                <label><input type="radio" name="tNovoSexo" value="masculino">Masculino</label>
+                <label><input type="radio" name="tNovoSexo" value="feminino">Feminino</label><br>
+
+
+                <label id="lUF" name="lUF">Munucipio de Nascimento/UF:</label><br>
+                <input type="text" id="tUF" name="tNovoUf" placeholder="Informe seu Munucipio de Nascimento" /><br>
+
+
+                <label>Nacionalidade:</label><br>
+                <label><input type="radio" name="tNovoNacionalidade" value="brasileira">Brasileira</label>
+                <label><input type="radio" name="tNovoNacionalidade" value="naturalizada">Naturalizada</label>
+                <label><input type="radio" name="tNovoNacionalidade" value="estrangeira">Estrangeira</label><br>
+
+                <label>País de Nascimento:</label><br>
+                <input type="text" id="tPais" name="tNovoPais" placeholder="Informe seu País de Nascimento"><br>
+
+                <label>Sabe ler e escrever?</label><br>
+                <label><input type="radio" name="tNovoLer" value="sim">Sim</label>
+                <label><input type="radio" name="tNovoLer" value="nao">Não</label><br>
+
+                <label>Escolaridade:</label><br>
+                <label><input type="radio" name="tNovoEscolaridade" value="nenhuma">Nenhuma</label>
+                <label><input type="radio" name="tNovoEscolaridade" value="de 1 a 3 anos">De 1 a 3 anos</label>
+                <label><input type="radio" name="tNovoEscolaridade" value="de 4 a 7 anos">De 4 a 7 anos</label>
+                <label><input type="radio" name="tNovoEscolaridade" value="8 anos ou mais">8 anos ou mais</label><br>
+
+                <label>Raça/cor:</label><br>
+                <label><input type="radio" name="tNovoRaca" value="branca">Branca</label>
+                <label><input type="radio" name="tNovoRaca" value="preta">Preta</label>
+                <label><input type="radio" name="tNovoRaca" value="parda">Parda</label>
+                <label><input type="radio" name="tNovoRaca" value="amarela">Amarela</label>
+                <label><input type="radio" name="tNovoRaca" value="não declarada">Não declarada</label>
+                <label><input type="radio" name="tNovoRaca" value="indigena">Indigena</label>
+                <label><input type="radio" name="tNovoRaca" value="nenhuma">Nenhuma</label><br>
+
+                <label>Etnia:</label>
+                <input type="text" id="tEtnia" name="tNovoEtnia" placeholder="Informe sua etnia"><br>
+
+                <label>Tem religião?</label><br>
+                <label><input type="radio" name="tNovoReligiao" value="sim">Sim</label>
+                <label><input type="radio" name="tNovoReligiao" value="nao">Não</label><br>
+            </fieldset><br>
+                     
+            <fieldset>
+                <legend>Profissão</legend>
+                <label>Ocupação/Profissão Principal:</label><br>
+                <input type="text" id="tProfissao" name="tNovaProfissao" placeholder="Informe sua profissão"><br>
+                <label>Situação Conjugal:</label> <br>
+                <label><input type="radio" name="tConjugue" value="solteiro">Solteiro(a)</label>
+                <label><input type="radio" name="tConjugue" value="casado">Casado(a)/Convívio com parceiro(a)</label><br>
+                <label><input type="radio" name="tConjugue" value="divorciado">Divorciado(a)/Separado(a)</label>
+                <label><input type="radio" name="tConjugue" value="viuvo">Viúvo(a)</label>
+                <input type="text" id="tViuvo" name="tNovaViuvo" placeholder="Desde quando (ano)?"><br>
+                <label><input type="radio" name="tConjugue" value="outra">Outra</label><br>
+                <label>Unidade básica de saúde que frequenta:</label><br>
+                <input type="text" id="tUnidadeSaude" name="tNovaUnidadeSaude"
+                    placeholder="Informe a sua unidade de saude de costume"><br>
+                <label>Tem alguma alergia de maior gravidade? Especificar</label><br>
+                <input type="text" id="tAlergia" name="tNovaAlergia" placeholder="Informe as alergias que possui"><br>
+            </fieldset><br>          
+            <fieldset>
+                <legend>Deficiência</legend>
+                <label>Tem alguma deficiência?</label><br>
+                <label><input type="radio" name="deficiencia" value="sim">Sim</label>
+                <label><input type="radio" name="deficiencia" value="nao">Não</label><br>
+                <label>Qual?</label><br>
+                <label><input type="checkbox" name="tipoDeficiencia" value="auditiva">Auditiva</label>
+                <label><input type="checkbox" name="tipoDeficiencia" value="visual">Visual</label>
+                <label><input type="checkbox" name="tipoDeficiencia"
+                        value="intelectual">Intelectual/Cognitiva</label><br>
+                <label><input type="checkbox" name="tipoDeficiencia" value="fisica">Física</label>
+                <label><input type="checkbox" name="tipoDeficiencia" value="outra">Outra</label><br>
+                <label>Especifique:</label>
+                <label><input type="text" id="tDeficiencia" name="tNovaDeficiencia"
+                        placeholder="Especifique sua deficiência"></label><br>
+            </fieldset><br>          
+            <fieldset>
+                <legend>Sangue</legend>
+                <label>Grupo Sanguíneo:</label>
+                <input type="text" id="tSangue" name="tNovoSangue" placeholder="Ex: O, B, etc...">
+                <Label>Fator RH:</Label>
+                <input type="text" id="tRH" name="tNovoRH" placeholder="Ex: Negativo, Positivo"><br>
+            </fieldset><br>          
+            <fieldset>
+                <legend>Endereço Residencial</legend>
+
+                <label>Rua/Avenida/Praça:</label>
+                <label><input type="text" id="tRua" name="tNovaRua" placeholder="Ex: Estrada Rio Acima"></label>
+                <label>N°:</label>
+                <label><input type="number" id="tNumber" name="tNovoNumber" placeholder="Ex: 1201"></label>
+                <label>Complemento:</label>
+                <label><input type="text" id="tComplemento" name="tNovoComplemento" placeholder="Ex: Casa 2"></label>
+                <label>Bairro:</label>
+                <label><input type="text" id="tBairro" name="tNovoBairro" placeholder="Ex: Fincos"></label><br>
+                <label>Ponto de Referência:</label>
+                <label><input type="text" id="tPontoRef" name="tNovoPontoRef"
+                        placeholder="Ex: Em frente ao campo de futebol"></label>
+                <label>CEP:</label>
+                <label><input type="text" id="tCep" name="tNovoCep" placeholder="Ex: 01111-111"></label>
+                <label>Munucípio</label>
+                <label><input type="text" id="tMunicipio" name="tNovoMunicipio"
+                        placeholder="Ex: São Bernardo do Campo"></label>
+                <label>Estado:</label>
+                <label><input type="text" id="tEstado" name="tNovoEstado" placeholder="Ex: São Paulo"></label><br>
+                <label>Telefone:</label>
+                <label><input type="text" id="tTelefone" name="tNovoTelefone" placeholder="Ex: (11) 4101-8922"></label>
+                <label>Celular:</label>
+                <label><input type="text" id="tCelular" name="tNovoCelular" placeholder="Ex: (11) 9 9999-9999"></label>
+                <label>E-mail:</label>
+                <label><input type="text" id="tEmail" name="tNovoEmail" placeholder="Ex: example@example.com"></label>
+
+
+            </fieldset><br>
+
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <td rowspan="2">Informações Sociofamiliares</td>
+                        <td colspan="2">20<input type="number"></td>
+                        <td colspan="2">20<input type="number"></td>
+                        <td colspan="2">20<input type="number"></td>
+                        <td colspan="2">20<input type="number"></td>
+                        <td colspan="2">20<input type="number"></td>
+                    </tr>
+                    <tr>
+
+                        <td>S</td>
+                        <td>N</td>
+                        <td>S</td>
+                        <td>N</td>
+                        <td>S</td>
+                        <td>N</td>
+                        <td>S</td>
+                        <td>N</td>
+                        <td>S</td>
+                        <td>N</td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Você mora sozinho(a)?</td>
+                        <td><input type="radio" name="sn1" value="sim"></td>
+                        <td><input type="radio" name="sn1" value="nao"></td>
+                        <td><input type="radio" name="sn2" value="sim"></td>
+                        <td><input type="radio" name="sn2" value="nao"></td>
+                        <td><input type="radio" name="sn3" value="sim"></td>
+                        <td><input type="radio" name="sn3" value="nao"></td>
+                        <td><input type="radio" name="sn4" value="sim"></td>
+                        <td><input type="radio" name="sn4" value="nao"></td>
+                        <td><input type="radio" name="sn5" value="sim"></td>
+                        <td><input type="radio" name="sn5" value="nao"></td>
+
+                    </tr>
+                    <tr>
+                        <td>Você mora com familiares?</td>
+                        <td><input type="radio" name="sn6" value="sim"></td>
+                        <td><input type="radio" name="sn6" value="nao"></td>
+                        <td><input type="radio" name="sn7" value="sim"></td>
+                        <td><input type="radio" name="sn7" value="nao"></td>
+                        <td><input type="radio" name="sn8" value="sim"></td>
+                        <td><input type="radio" name="sn8" value="nao"></td>
+                        <td><input type="radio" name="sn9" value="sim"></td>
+                        <td><input type="radio" name="sn9" value="nao"></td>
+                        <td><input type="radio" name="sn10" value="sim"></td>
+                        <td><input type="radio" name="sn10" value="nao"></td>
+                    </tr>
+                    <tr>
+                        <td>Você mora com seu(sua) cônjuge ou companheiro(a)?</td>
+                        <td><input type="radio" name="sn11" value="sim"></td>
+                        <td><input type="radio" name="sn11" value="nao"></td>
+                        <td><input type="radio" name="sn12" value="sim"></td>
+                        <td><input type="radio" name="sn12" value="nao"></td>
+                        <td><input type="radio" name="sn13" value="sim"></td>
+                        <td><input type="radio" name="sn13" value="nao"></td>
+                        <td><input type="radio" name="sn14" value="sim"></td>
+                        <td><input type="radio" name="sn14" value="nao"></td>
+                        <td><input type="radio" name="sn15" value="sim"></td>
+                        <td><input type="radio" name="sn15" value="nao"></td>
+                    </tr>
+                    <tr>
+                        <td>Você reside em Instituição de Longa Permanência para Idosos (ILPI), abrigo ou casa de
+                            repouso?</td>
+                        <td><input type="radio" name="sn16" value="sim"></td>
+                        <td><input type="radio" name="sn16" value="nao"></td>
+                        <td><input type="radio" name="sn17" value="sim"></td>
+                        <td><input type="radio" name="sn17" value="nao"></td>
+                        <td><input type="radio" name="sn18" value="sim"></td>
+                        <td><input type="radio" name="sn18" value="nao"></td>
+                        <td><input type="radio" name="sn19" value="sim"></td>
+                        <td><input type="radio" name="sn19" value="nao"></td>
+                        <td><input type="radio" name="sn20" value="sim"></td>
+                        <td><input type="radio" name="sn20" value="nao"></td>
+                    </tr>
+                    <tr>
+                        <td>Nos últimos 30 dias, você se encontrou com amigos ou familiares para conversar ou fazer
+                            alguma atividade, como ir ao cinema ou à igreja, passear ou caminhar junto?</td>
+                        <td><input type="radio" name="sn21" value="sim"></td>
+                        <td><input type="radio" name="sn21" value="nao"></td>
+                        <td><input type="radio" name="sn22" value="sim"></td>
+                        <td><input type="radio" name="sn22" value="nao"></td>
+                        <td><input type="radio" name="sn23" value="sim"></td>
+                        <td><input type="radio" name="sn23" value="nao"></td>
+                        <td><input type="radio" name="sn24" value="sim"></td>
+                        <td><input type="radio" name="sn24" value="nao"></td>
+                        <td><input type="radio" name="sn25" value="sim"></td>
+                        <td><input type="radio" name="sn25" value="nao"></td>
+                    </tr>
+                    <tr>
+                        <td>Em caso de necessidade, você conta com alguém para acompanhá-lo(a) à unidade de saúde ou a
+                            uma consulta?</td>
+                        <td><input type="radio" name="sn26" value="sim"></td>
+                        <td><input type="radio" name="sn26" value="nao"></td>
+                        <td><input type="radio" name="sn27" value="sim"></td>
+                        <td><input type="radio" name="sn27" value="nao"></td>
+                        <td><input type="radio" name="sn28" value="sim"></td>
+                        <td><input type="radio" name="sn28" value="nao"></td>
+                        <td><input type="radio" name="sn29" value="sim"></td>
+                        <td><input type="radio" name="sn29" value="nao"></td>
+                        <td><input type="radio" name="sn30" value="sim"></td>
+                        <td><input type="radio" name="sn30" value="nao"></td>
+                    </tr>
+                    <tr>
+                        <td>Você tem fácil acesso aos serviços de farmácia, padaria ou supermercado?</td>
+                        <td><input type="radio" name="sn31" value="sim"></td>
+                        <td><input type="radio" name="sn31" value="nao"></td>
+                        <td><input type="radio" name="sn32" value="sim"></td>
+                        <td><input type="radio" name="sn32" value="nao"></td>
+                        <td><input type="radio" name="sn33" value="sim"></td>
+                        <td><input type="radio" name="sn33" value="nao"></td>
+                        <td><input type="radio" name="sn34" value="sim"></td>
+                        <td><input type="radio" name="sn34" value="nao"></td>
+                        <td><input type="radio" name="sn35" value="sim"></td>
+                        <td><input type="radio" name="sn35" value="nao"></td>
+                    </tr>
+                    <tr>
+                        <td>Você tem fácil acesso a transporte? </td>
+                        <td><input type="radio" name="sn36" value="sim"></td>
+                        <td><input type="radio" name="sn36" value="nao"></td>
+                        <td><input type="radio" name="sn37" value="sim"></td>
+                        <td><input type="radio" name="sn37" value="nao"></td>
+                        <td><input type="radio" name="sn38" value="sim"></td>
+                        <td><input type="radio" name="sn38" value="nao"></td>
+                        <td><input type="radio" name="sn39" value="sim"></td>
+                        <td><input type="radio" name="sn39" value="nao"></td>
+                        <td><input type="radio" name="sn40" value="sim"></td>
+                        <td><input type="radio" name="sn40" value="nao"></td>
+                    </tr>
+                    <tr>
+                        <td>Você trabalha atualmente? </td>
+                        <td><input type="radio" name="sn41" value="sim"></td>
+                        <td><input type="radio" name="sn41" value="nao"></td>
+                        <td><input type="radio" name="sn42" value="sim"></td>
+                        <td><input type="radio" name="sn42" value="nao"></td>
+                        <td><input type="radio" name="sn43" value="sim"></td>
+                        <td><input type="radio" name="sn43" value="nao"></td>
+                        <td><input type="radio" name="sn44" value="sim"></td>
+                        <td><input type="radio" name="sn44" value="nao"></td>
+                        <td><input type="radio" name="sn45" value="sim"></td>
+                        <td><input type="radio" name="sn45" value="nao"></td>
+                    </tr>
+                    <tr>
+                        <td>Você recebe aposentadoria ou pensão? </td>
+                        <td><input type="radio" name="sn46" value="sim"></td>
+                        <td><input type="radio" name="sn46" value="nao"></td>
+                        <td><input type="radio" name="sn47" value="sim"></td>
+                        <td><input type="radio" name="sn47" value="nao"></td>
+                        <td><input type="radio" name="sn48" value="sim"></td>
+                        <td><input type="radio" name="sn48" value="nao"></td>
+                        <td><input type="radio" name="sn49" value="sim"></td>
+                        <td><input type="radio" name="sn49" value="nao"></td>
+                        <td><input type="radio" name="sn50" value="sim"></td>
+                        <td><input type="radio" name="sn50" value="nao"></td>
+                    </tr>
+                    <tr>
+                        <td>Você recebe Benefício de Prestação Continuada (BPC)?</td>
+                        <td><input type="radio" name="sn51" value="sim"></td>
+                        <td><input type="radio" name="sn51" value="nao"></td>
+                        <td><input type="radio" name="sn52" value="sim"></td>
+                        <td><input type="radio" name="sn52" value="nao"></td>
+                        <td><input type="radio" name="sn53" value="sim"></td>
+                        <td><input type="radio" name="sn53" value="nao"></td>
+                        <td><input type="radio" name="sn54" value="sim"></td>
+                        <td><input type="radio" name="sn54" value="nao"></td>
+                        <td><input type="radio" name="sn55" value="sim"></td>
+                        <td><input type="radio" name="sn55" value="nao"></td>
+                    </tr>
+                    <tr>
+                        <td>Você recebe Bolsa Família? </td>
+                        <td><input type="radio" name="sn56" value="sim"></td>
+                        <td><input type="radio" name="sn56" value="nao"></td>
+                        <td><input type="radio" name="sn57" value="sim"></td>
+                        <td><input type="radio" name="sn57" value="nao"></td>
+                        <td><input type="radio" name="sn58" value="sim"></td>
+                        <td><input type="radio" name="sn58" value="nao"></td>
+                        <td><input type="radio" name="sn59" value="sim"></td>
+                        <td><input type="radio" name="sn59" value="nao"></td>
+                        <td><input type="radio" name="sn60" value="sim"></td>
+                        <td><input type="radio" name="sn60" value="nao"></td>
+                    </tr>
+
+
+                </tbody>
+
+
+            </table>
+
+
+
+
+            <br><br>
+            
+
+        </fieldset><br>   
+
+        <button type="submit">Cadastrar Dados</button>
+
+    </form>
+
+
+</body>
+
+</html>

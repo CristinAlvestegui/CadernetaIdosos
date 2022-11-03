@@ -1,0 +1,101 @@
+div{
+    margin: 300px;
+}
+
+form{
+    display: inline-block;
+    padding: 15px;
+    border-color: 2px solid #6FB892;
+}
+
+form h2, h3, p{
+    color: #848f7e;
+    font-family: 'Battambang', cursive;
+}
+
+a :active{
+    background-color: rgb(189, 245, 153);
+}
+
+p{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+    cursor: pointer;
+    width: 120px;
+}
+
+label{
+    color: #CAD9C2;
+    font-size: 15px;
+    padding: 3px;
+    font-family: 'Battambang', cursive;
+}
+
+input[type="number"],input[type="text"],input[type="email"],input[type=""],
+input[type="telephone"]{
+    padding: 5px 5px 5px 15px;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+label[for="sexoFeme"], label[for="sexoMascu"], 
+label[for="sexoTransg"], label[for="sexoNeutro"],
+label[for="sexoNBinario"], label[for="sexoAGenero"]{
+    margin-right: 20px;
+    padding-left: 0px;
+    cursor: pointer;
+}
+
+input:checked + label[for="sexoFeme"], input:checked + label[for="sexoMascu"],
+input:checked + label[for="sexoTransg"], input:checked + label[for="sexoNeutro"],
+input:checked + label[for="sexoNBinario"], input:checked + label[for="sexoAGenero"],
+input:checked + label[for="termos"]{
+    color: rgb(30, 206, 233);
+}
+
+label[for=termos]{
+    margin: 0;
+    cursor: pointer;
+}
+
+fieldset{
+    padding: 20px;
+    margin: 20px 0;
+    border: 3px solid #6FB892;
+    border-left: 20px solid #6FB892;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+legend{
+    background-color: #6FB892;
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 0.04em;
+    padding: 10px;
+    border-radius: 35px;
+}
+
+select{
+    margin: 20px 0;
+    padding: 5px 5px 5px 15px;
+    border-radius: 4px;
+    border-color: 2px solid #fff;
+    width: 250px;
+}
+
+input[type="submit"]{
+    text-align: center;
+    font-size: 15px;
+    background-color: #CA9FD4 ;
+    padding: 5px;
+    border-radius: 4px;
+    border: 0;
+    width: 150px;
+}
