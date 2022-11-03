@@ -44,9 +44,9 @@ def ambiental():
 def antropometricos():
     return render_template('antropometricos.html', titulo="Antropometrico")
 
-@pessoa.route('/avalIdoso.html', methods=['GET','POST'])
+@pessoa.route('/medicamentos.html', methods=['GET','POST'])
 def avalIdoso():
-    return render_template('avalIdoso.html', titulo="Avaliação do Idoso")
+    return render_template('medicamentos.html', titulo="Avaliação do Idoso")
 
 @pessoa.route('/cadastroCuidador.html', methods=['GET','POST'])
 def cadastroCuidador():
