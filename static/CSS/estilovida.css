@@ -1,11 +1,12 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #B9FFE6;
 }
+
 table{
     border-collapse: collapse;
     text-align: center;
     padding: 20px;
-    margin: 300px auto;
 }
 
 table, th, td{
@@ -26,18 +27,18 @@ input[type="text"]{
     width: 100px;
 }
 
-.fielum{
+fieldset{
+    background-color: #fff;
+    width: 60%;
     padding: 20px;
-    margin: auto 400px;
-    border: 3px solid #89BBE8 ;
-    border-left: 20px solid #89BBE8 ;
+    margin: 4% 15%;
+    border: 3px solid #83C4FC;
+    border-left: 20px solid #83C4FC;
     display: inline-block;
-    width: 600px;
-    border-radius: 4px;
 }
 
 legend{
-    background-color: #89BBE8;
+    background-color: #83C4FC;
     text-align: center;
     font-size: 28px;
     letter-spacing: 0.04em;
@@ -49,8 +50,7 @@ table .pesoSize{
  }
 
  #tabela{
-    padding: 20px;
-    margin: auto 400px;
+
     border: 3px solid #89BBE8 ;
     display: inline-block;
     width: 600px;
@@ -75,4 +75,18 @@ div{
 
 .semfundo :hover{
     background-color: transparent;
+}
+
+input[type="submit"]{
+    background-color: #F09D1A;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    border: none;
+}
+
+span{
+    display: inline-block;
+    text-align: center;
+    margin: 0px 50%;
 }
