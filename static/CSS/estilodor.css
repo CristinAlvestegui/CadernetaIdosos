@@ -1,6 +1,8 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #B9FFE6;
 }
+
 table{
     border-collapse: collapse;
     text-align: center;
@@ -19,13 +21,18 @@ input[type="number"]{
 }
 
 fieldset{
+    background-color: #fff;
     padding: 20px;
-    margin: 400px;
+    margin: 4% 15%;
     border: 3px solid #89BBE8 ;
     border-left: 20px solid #89BBE8 ;
     display: inline-block;
     width: 600px;
     border-radius: 4px;
+}
+
+.azul :hover{
+    background-color: rgb(111, 243, 250);
 }
 
 legend{
@@ -71,4 +78,23 @@ body #escalalabel #leve{
 body #escalalabel #intensa{
     position: relative;
     left: 120px;
+}
+
+#informe{
+    text-align: center;
+    color: #2267a3;
+}
+
+input[type="submit"]{
+    background-color: #F09D1A;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    border: none;
+}
+
+span{
+    display: inline-block;
+    text-align: center;
+    margin: 0px 45%;
 }
