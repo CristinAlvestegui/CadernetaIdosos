@@ -8,19 +8,20 @@
 
     <body>
         <div>
-            <fieldset class="fielum">
+            <fieldset>
                 <legend>Controle de Peso</legend>
                 <table width="90%">
                     <thead>
                         <tr>
-                            <td><strong>Controle de perda de peso</strong></td>
-                            <th colspan="2" class="pesoSize">20<input type="number" class="inpuAno"></th>
-                            <th colspan="2" class="pesoSize">20<input type="number" class="inpuAno"></th>
-                            <th colspan="2" class="pesoSize">20<input type="number" class="inpuAno"></th>
-                            <th colspan="2" class="pesoSize">20<input type="number" class="inpuAno"></th>
+                            <th rowspan="2">Controle de perda de peso</td>
+                            <form>
+                                <th colspan="2" class="pesoSize">20<input type="number" class="inpuAno"></th>
+                                <th colspan="2" class="pesoSize">20<input type="number" class="inpuAno"></th>
+                                <th colspan="2" class="pesoSize">20<input type="number" class="inpuAno"></th>
+                                <th colspan="2" class="pesoSize">20<input type="number" class="inpuAno"></th>
+                            </form>
                         </tr>
                         <tr>
-                            <td></td>
                             <th>S</th>
                             <th>N</th>
                             <th>S</th>
@@ -34,21 +35,23 @@
                     <tbody>
                         <tr>
                             <th>Você apresentou <strong>perda de peso não intencional*</strong>de, no mínimo, 4.5kg ou de 5% do seu peso corporal no ultimo ano?</th>
-                            <td><input type="radio" name="peso1" value="sim"></td>
-                            <td><input type="radio" name="peso1" value="não"></td>
-                            <td><input type="radio" name="peso2" value="sim"></td>
-                            <td><input type="radio" name="peso2" value="não"></td>
-                            <td><input type="radio" name="peso3" value="sim"></td>
-                            <td><input type="radio" name="peso3" value="não"></td>
-                            <td><input type="radio" name="peso4" value="sim"></td>
-                            <td><input type="radio" name="peso4" value="não"></td>
+                            <form>
+                                <td><input type="radio" name="peso1" value="sim"></td>
+                                <td><input type="radio" name="peso1" value="não"></td>
+                                <td><input type="radio" name="peso2" value="sim"></td>
+                                <td><input type="radio" name="peso2" value="não"></td>
+                                <td><input type="radio" name="peso3" value="sim"></td>
+                                <td><input type="radio" name="peso3" value="não"></td>
+                                <td><input type="radio" name="peso4" value="sim"></td>
+                                <td><input type="radio" name="peso4" value="não"></td>
+                            </form>
                         </tr>
                     </tbody>
                 </table>
                 <img src="../static/fotos/controlPeso.PNG">
             </fieldset>
         </div><br>
-        <div id="tabela"><br>
+        <fieldset>
             <table id="IMC">
                 <thead>
                     <tr>
@@ -78,7 +81,12 @@
     
             <p><strong>*</strong>Perda de peso não intencional é aquele emagrecimento que não aconteceu por decisão<br>
             própria. Caso isso ocorra, deve-se investigar as possíveis causas</p>
-        </div>
-        
+        </fieldset>
+
+        <form>
+            <span>
+                <input type="submit">
+            </span>
+        </form>
     </body>
 </html>
