@@ -15,6 +15,10 @@ table {
     margin: auto;
 }
 
+button{
+    margin: 0px 50%;
+}
+
 input[type=text] {
     padding: 5px 5px 5px 15px;
     border: 1px solid #89bbe8;

@@ -1,46 +1,51 @@
-* {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  td{
-    text-align: center;
-    border: 1px solid #89bbe8;
-    border-radius: 5px;
-    
-  }
-  
-  table {
-    margin: auto;
-  }
+ * {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
 
-  input[type="numer"]{
-    width: 40px;
-    padding: 5px 5px 5px 15px;
-    border: 1px solid #89bbe8;
-    border-radius: 4px;
-}
-  
-  fieldset {
-    padding: 5px 5px 5px 15px;
-    width: 60%;
-    border-radius: 4px;
-    border: 3px solid #89bbe8;
-    border-left: 20px solid #89bbe8;
-  }
-  
-  legend {
-    border: 3px solid #89bbe8;
-    border-radius: 10px;
-    background-color: #89bbe8;
-    text-align: center;
-  }
+ td {
+   text-align: center;
+   border: 1px solid #89bbe8;
+   border-radius: 5px;
 
-  p{
-    color:red;
-    background-color: yellow;
-    text-align: center;
-  }
-  
-  .inpuAno{
-    width: 40px;
-  }
+ }
+
+ table {
+   margin: auto;
+ }
+
+ button {
+   margin: 0px 50%;
+ }
+
+
+ input[type="numer"] {
+   width: 40px;
+   padding: 5px 5px 5px 15px;
+   border: 1px solid #89bbe8;
+   border-radius: 4px;
+ }
+
+ fieldset {
+   padding: 5px 5px 5px 15px;
+   width: 60%;
+   border-radius: 4px;
+   border: 3px solid #89bbe8;
+   border-left: 20px solid #89bbe8;
+ }
+
+ legend {
+   border: 3px solid #89bbe8;
+   border-radius: 10px;
+   background-color: #89bbe8;
+   text-align: center;
+ }
+
+ p {
+   color: red;
+   background-color: yellow;
+   text-align: center;
+ }
+
+ .inpuAno {
+   width: 40px;
+ }
