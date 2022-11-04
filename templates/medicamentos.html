@@ -14,9 +14,9 @@
         </legend><br>
         <label>Medicamentos, fitoterápicos, suplementos e vitaminas em uso</label>
         <br><br>
-        <label>Anote os nomes de todos os medicamentos, fitoterápicos, suplementos e vitaminas em uso, prescritos por
-            profissionais de saúde ou na forma de automedicação.</label><br>
-        <form>
+        <label>Anote os nomes de todos os medicamentos, fitoterápicos, suplementos e vitaminas em uso, prescritos por profissionais de saúde ou na forma de automedicação.</label><br>
+        
+        <form action="/medicamentos.html" action="POST">
             <table>
 
                 <thead>
@@ -38,12 +38,12 @@
                 <tbody>
 
                     <tr>
-                        <td><textarea rows="2"></textarea></td>
-                        <td><textarea rows="2"></textarea></td>
+                        <td><input type="text" id ="tDescricao" name="tNovoDescricao" required></td>
+                        <td><input type="text" id = "tDose" name="tNovoDose" required></td>
+                        <td><input type="date" id = "tDataMed" name="tNovoDataMed" required></td>
+                        <td><input type="text" id = "tMedico" name="tNovoMedico" required></td>
                         <td><input type="date"></td>
-                        <td><textarea rows="2"></textarea></td>
-                        <td><input type="date"></td>
-                        <td><textarea rows="2"></textarea></td>
+                        <td><input type="text"></td>
                     </tr>
 
                     <br><br>

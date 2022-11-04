@@ -15,3 +15,12 @@ class model:
             return "{} Inserido!".format(self.con.rowcount)
         except Exception as erro:
             return erro
+        
+    def inserirMed(self, descricao, dose, dataMed, medico):
+        try:
+            sql = "Insert into medicine(codigo, descricao, dose, dataMed, medico) values('','{}','{}','{}','{}')".format(descricao, dose, dataMed, medico)
+            self.con.execute(sql)
+            self.db_connection.commit()
+            return "{} Inserido!".format(self.con.rowcount)
+        except Exception as erro:
+            return erro

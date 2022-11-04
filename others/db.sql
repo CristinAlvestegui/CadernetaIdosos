@@ -21,4 +21,13 @@ religiao varchar(50) not null
 
 ) Engine= InnoDB;
 
+create table medicine(
+codigo bigint not null primary key auto_increment,
+descricao varchar(100) not null,
+dose varchar(100) not null,
+dataMed date not null,
+medico varchar(100) not null
+)Engine = InnoDB;
+
+drop table medicine;
 select * from person;
