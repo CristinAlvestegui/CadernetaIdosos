@@ -1,6 +1,13 @@
 body{
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #B9FFE6;
+    margin:0;
+    padding: 0;
+}
+
+#logo{
+    float: left;
+    margin: 0% 1%;
 }
 
 header{
@@ -28,13 +35,19 @@ nav{
     text-align: right;
 }
 
+#tituLogo{
+   position: relative;
+   
+   transform: translateY(80%);
+}
+
 /*Menu Drop Down */
 nav ul ul{
     color: #fff;
     background-color: #36A1FF;
     display: none;
     position: absolute;
-    left: -40;
+    left: -40%;
     width: 200px;
     text-align: left;
 }
@@ -151,7 +164,7 @@ footer li{
 }
 
 #equipe{
-    line-height: 10px;
+    line-height: 7px;
 }
 
 #copiright{
