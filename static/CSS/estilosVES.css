@@ -1,79 +1,97 @@
 body{
-    font-family: 'JetBrains Mono', monospace;
-}
-
-#logo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #B9FFE6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #logo{
     float: left;
     margin: 0% 1%;
-}
-
-#tituLogo{
-
-  /*position: relative;
-  top: 10%;*/
-}
-
-header{
+  }
+  
+  #tituLogo{
+    position: relative;
+    transform: translateY(80%);
+  }
+  
+  header{
     font-family: 'Inter', sans-serif;
     border: 3px solid #36A1FF;
     background-color: #36A1FF;
     color: #fff;
     width: 100%;
-}
-
-nav ul{
+  }
+  
+  nav ul{
     color: #fff;
-}
-
-nav ul li{
+  }
+  
+  nav ul li{
     color: #fff;
     margin: 0 20px;
     display: inline;
     position: relative;
-}
-
-nav{
+    transform: translateY(-80%);
+  }
+  
+  nav{
     color: #fff;
     margin-right: 150px;
     text-align: right;
-}
-
-/*Menu Drop Down */
-nav ul ul{
+  }
+  
+  /*Menu Drop Down */
+  nav ul ul{
     color: #fff;
     background-color: #36A1FF;
     display: none;
     position: absolute;
-    left: -40;
+    left: -40%;
     width: 200px;
     text-align: left;
-}
-
-nav ul li #conEpri{
-    line-height: 20px;
-}
-
-nav ul li:hover ul{
+  }
+  
+  
+  nav ul li:hover ul{
     display: block;
     line-height: 35px;
-}
-
-nav ul ul li a{
+  }
+  
+  nav ul ul li a{
     color: #fff;
     display: block;
     text-decoration: none;
-    transition: backgroubd .3s;
-}
-/* */
-
-
-a{
+    transition: .3s;
+  }
+  /* */
+  
+  
+  a{
     text-decoration: none;
-}
-
-nav ul li a:hover{
+  }
+  
+  nav ul li a:hover{
     background-color: #F09D1A;
-}
+  }
+  
+  
+  a{
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li:hover ul{
+    display: block;
+    line-height: 15px;
+  }
+  
+  td{
+    text-align: center;
+    border: 1px solid #89bbe8;
+    border-radius: 5px;   
+  
+  }
 
 table{
     border-collapse: collapse;
@@ -109,6 +127,7 @@ fieldset .simeNao{
 }
 
 fieldset{
+    background-color: #fff;
     width: 60%;
     padding: 20px;
     margin: 30px 170px;
@@ -125,6 +144,20 @@ legend{
     padding: 10px;
 }
 
+input[type="submit"]{
+    background-color: #F09D1A;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    border: none;
+}
+
+span{
+  display: inline-block;
+  text-align: center;
+  margin: 2% 50%;
+}
+
 label{
     font-size: 14px;
 }
@@ -135,6 +168,8 @@ label{
  } ideias muito loucas! kkkkk */
 
  footer{
+    margin: 0;
+    width: 100%;
     padding-left: 25px;
     font-family: 'Inter', sans-serif;
     border: 10px solid #1C6491;
@@ -157,4 +192,3 @@ footer li{
     float: center;
     width: 10%;
 }
-
