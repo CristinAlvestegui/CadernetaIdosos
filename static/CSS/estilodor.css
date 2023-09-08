@@ -148,19 +148,26 @@ legend{
     background: transparent;
 }
 
-body #escalalabel{
+#escalalabel{
+    margin-bottom: -50px;
+}
+
+body #escalalabel #modera{
+    position: relative;
     text-align: center;
     display: inline;
+    bottom: 21px;
 }
 
 body #escalalabel #leve{
     position: relative;
-    right: 115px;
+    right: 185px;  
 }
 
 body #escalalabel #intensa{
     position: relative;
-    left: 120px;
+    left: 185px;
+    bottom: 45px;
 }
 
 #informe{
