@@ -1,80 +1,90 @@
 body{
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #B9FFE6;
-}
-
-#logo{
+    margin: 0;
+    padding: 0;
+  }
+  
+  #logo{
     float: left;
     margin: 0% 1%;
-}
-
-#tituLogo{
-
-  /*position: relative;
-  top: 10%;*/
-}
-
-header{
+  }
+  
+  #tituLogo{
+    position: relative;
+    transform: translateY(80%);
+  }
+  
+  header{
     font-family: 'Inter', sans-serif;
     border: 3px solid #36A1FF;
     background-color: #36A1FF;
     color: #fff;
     width: 100%;
-}
-
-nav ul{
+  }
+  
+  nav ul{
     color: #fff;
-}
-
-nav ul li{
+  }
+  
+  nav ul li{
     color: #fff;
     margin: 0 20px;
     display: inline;
     position: relative;
-}
-
-nav{
+    transform: translateY(-80%);
+  }
+  
+  nav{
     color: #fff;
     margin-right: 150px;
     text-align: right;
-}
-
-/*Menu Drop Down */
-nav ul ul{
+  }
+  
+  /*Menu Drop Down */
+  nav ul ul{
     color: #fff;
     background-color: #36A1FF;
     display: none;
     position: absolute;
-    left: -40;
+    left: -40%;
     width: 200px;
     text-align: left;
-}
-
-nav ul li #conEpri{
-    line-height: 20px;
-}
-
-nav ul li:hover ul{
+  }
+  
+  
+  nav ul li:hover ul{
     display: block;
     line-height: 35px;
-}
-
-nav ul ul li a{
+  }
+  
+  nav ul ul li a{
     color: #fff;
     display: block;
     text-decoration: none;
-    transition: backgroubd .3s;
-}
-/* */
-
-nav ul li a:hover{
-    background-color: #F09D1A;
-}
-
-
-a{
+    transition: .3s;
+  }
+  /* */
+  
+  
+  a{
     text-decoration: none;
-}
+  }
+  
+  nav ul li a:hover{
+    background-color: #F09D1A;
+  }
+  
+  
+  a{
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li:hover ul{
+    display: block;
+    line-height: 15px;
+  }
 
 table{
     border-collapse: collapse;
