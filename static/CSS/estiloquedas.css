@@ -96,14 +96,16 @@ table{
 table, th, td{
     border: 2px solid #83C4FC;
 }
+
+td{
+    height: 70px;
+}
   
 tr :hover{
     background-color: rgb(111, 243, 250);
 }
   
-input{
-    width: 40px;
-}
+
   
 fieldset{
     background-color: #fff;
