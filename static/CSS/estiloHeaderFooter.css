@@ -1,0 +1,116 @@
+html{ box-sizing: border-box;}
+*, *::before, *::after {box-sizing: inherit;}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #B9FFE6;
+    margin: 0;
+    padding: 0;
+}
+  
+#logo{
+    float: left;
+    margin: 0% 1%;
+}
+  
+#tituLogo{
+    position: relative;
+    transform: translateY(80%);
+}
+  
+header{
+    font-family: 'Inter', sans-serif;
+    border: 3px solid #36A1FF;
+    background-color: #36A1FF;
+    color: #fff;
+    width: 100%;
+}
+  
+nav ul{
+    color: #fff;
+}
+  
+nav ul li{
+    color: #fff;
+    margin: 0 20px;
+    display: inline;
+    position: relative;
+    transform: translateY(-80%);
+}
+  
+nav{
+    color: #fff;
+    margin-right: 150px;
+    text-align: right;
+}
+  
+/*Menu Drop Down */
+nav ul ul{
+    color: #fff;
+    background-color: #36A1FF;
+    display: none;
+    position: absolute;
+    left: -40%;
+    width: 200px;
+    text-align: left;
+}
+  
+  
+nav ul li:hover ul{
+    display: block;
+    line-height: 35px;
+}
+  
+nav ul ul li a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    transition: .3s;
+}
+ 
+  
+  
+a{
+    text-decoration: none;
+}
+  
+nav ul li a:hover{
+    background-color: #F09D1A;
+}
+  
+  
+a{
+    color: #fff;
+    text-decoration: none;
+}
+  
+nav ul li:hover ul{
+    display: block;
+    line-height: 15px;
+}/*Fim do estilo Header */
+
+
+footer{
+    margin: 0;
+    padding-left: 25px;
+    font-family: 'Inter', sans-serif;
+    border: 10px solid #1C6491;
+    background-color: #1C6491;
+    color: #fff;
+    column-count: 3;
+}
+  
+footer li{
+    list-style-type: none;
+    font-size: 13px;
+    padding: 5px;
+}
+  
+#equipe{
+    line-height: 7px;
+}
+  
+#copiright{
+    float: center;
+    width: 10%;
+}/*Fim do estilo Footer */
