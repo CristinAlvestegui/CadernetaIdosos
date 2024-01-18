@@ -1,0 +1,42 @@
+html{ box-sizing: border-box;}
+*, *::before, *::after {box-sizing: inherit;}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+  
+table, th, td{
+    border: 2px solid #83C4FC;
+}
+  
+tr :hover{
+    background-color: rgb(111, 243, 250);
+}
+  
+input{
+    width: 40px;
+}
+  
+fieldset{
+    background-color: #fff;
+    width: 60%;
+    padding: 20px;
+    margin: 4% 20%;
+    border: 3px solid #83C4FC;
+    border-left: 20px solid #83C4FC;
+    display: inline-block;
+}
+  
+legend{
+    background-color: #83C4FC;
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 0.04em;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#vertical{
+    writing-mode: vertical-rl;
+}
