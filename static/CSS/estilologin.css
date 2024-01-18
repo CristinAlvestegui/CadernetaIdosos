@@ -10,15 +10,17 @@ html{ box-sizing: border-box;}
 
 #cuidador{
     background-image: url(../Fotos/cuidador.jpg);
-    background-position-x: -175px;
+    background-position-x: -325px;
     height: 442px;
     width: 45%;
+    object-fit: fill;
 }
 
 .field{
+    background-color: #fff;
     border: 1px solid white;
     border-radius: 25px;
-    margin: 3% 1%;
+    margin: 3% 2%;
     display: inline;
 }
 
@@ -53,9 +55,13 @@ button{
 button{
     text-align: center;
     font-size: 15px;
-    background-color: #CAD9C2 ;
+    background-color:rgba(202, 217, 194, 0.635);
     padding: 5px;
     border-radius: 4px;
     border: 0;
     width: 150px;
+}
+
+button:hover{
+    background-color: rgb(202, 217, 194) ;
 }
