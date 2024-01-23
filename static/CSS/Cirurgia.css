@@ -1,47 +1,68 @@
 html{ box-sizing: border-box;}
 *, *::before, *::after {box-sizing: inherit;}
 
+:root{
+    --azul:#83C4FC;
+    --blanco: #fff;
+    --hover: #6ff3fa;
+    --naranja: #F09D1A;
+}
+
 form{
     display: inline-block;
     padding: 15px;
-    border-color: 2px solid #83C4FC;
+    border-color: 2px solid var(--azul);
 }
 
 fieldset{
-    background-color: #fff;
+    background-color: var(--blanco);
     width: 60%;
     padding: 20px;
     margin: 4% 20%;
-    border: 3px solid #83C4FC;
-    border-left: 20px solid #83C4FC;
+    border: 3px solid var(--azul);
+    border-left: 20px solid var(--azul);
     display: inline-block;
 }
   
 legend{
-    background-color: #83C4FC;
+    background-color: var(--azul);
     text-align: center;
     font-size: 18px;
     padding: 10px;
     border-radius: 10px;
 }
 
+h4{
+    margin-left: 20%;
+}
+
 table{
     border-collapse: collapse;
     text-align: center;
+    margin-left: 15%;
 }
   
 table, th, td{
-    border: 2px solid #83C4FC;
+    border: 2px solid var(--azul);
 }
   
 tr :hover{
-    background-color: rgb(111, 243, 250);
+    background-color: var(--hover);
 }
 
-input[type="submit"]{
-    background-color: #F09D1A;
-    color: #fff;
-    width: 100px;
+button{
+    background-color: hsla(37, 88%, 52%, 0.523);
+    color: var(--blanco);
+    text-align: center;
+    border-radius: 4px;
+    font-size: 15px;
+    width: 115px;
     height: 50px;
     border: none;
+    margin-top: 2%;
+    margin-left: 40%;
+}
+
+button:hover{
+    background-color: var(--naranja);
 }
