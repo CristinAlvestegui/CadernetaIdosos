@@ -1,6 +1,12 @@
 html{ box-sizing: border-box;}
 *, *::before, *::after {box-sizing: inherit;}
 
+:root{
+    --azul: #89bbe8;
+    --blanco: #fff;
+    --naranja: #F09D1A;
+}
+
 h1, p{
     text-align: center;
 }
@@ -8,10 +14,10 @@ h1, p{
 
 input[type=text], input[type=date] {
     padding: 5px 5px 5px 15px;
-    border: 1px solid #89bbe8;
+    border: 1px solid var(--azul);
     border-radius: 4px;
     width: 160px;
-    background-color: #fff;
+    background-color: var(--blanco);
 }
 
 #tNomeDaMãe,#tUF,#tPais,#tDeficiencia {
@@ -20,12 +26,12 @@ input[type=text], input[type=date] {
 
 
 fieldset {
-    background-color: #fff;
+    background-color: var(--blanco);
     padding: 5px 5px 5px 15px;
-    border: 1px solid #89bbe8;
+    border: 1px solid var(--azul);
     border-radius: 4px;
-    border: 3px solid #89bbe8;
-    border-left: 20px solid #89bbe8;
+    border: 3px solid var(--azul);
+    border-left: 20px solid var(--azul);
     margin: auto 400px;
 }
 
@@ -35,37 +41,35 @@ fieldset {
 
 legend {
     
-    border: 3px solid #89bbe8;
+    border: 3px solid var(--azul);
     border-radius: 10px;
-    background-color: #89bbe8;
+    background-color: var(--azul);
     font-size: 18px;
     text-align: center;
     padding: 3px;
 }
 
-
-button{
-    text-align: center;
-    font-size: 15px;
-    background-color: #CAD9C2 ;
-    padding: 5px;
-    border-radius: 4px;
-    border: 0;
-    width: 150px;
-}
-
 form{
-    background-color: #fff;
+    background-color: var(--blanco);
 }
 
 label{
-    background-color: #fff;
+    background-color: var(--blanco);
 }
 
-input[type="submit"]{
-    background-color: #F09D1A;
-    color: #fff;
-    width: 100px;
+button{
+    background-color: hsla(37, 88%, 52%, 0.523);
+    color: var(--blanco);
+    text-align: center;
+    border-radius: 4px;
+    font-size: 15px;
+    width: 115px;
     height: 50px;
     border: none;
+    margin-top: 2%;
+    margin-left: 30%;
+}
+
+button:hover{
+    background-color: var(--naranja);
 }
