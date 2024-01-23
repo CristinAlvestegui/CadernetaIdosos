@@ -1,51 +1,74 @@
- * {
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- }
+html{ box-sizing: border-box;}
+*, *::before, *::after {box-sizing: inherit;}
 
- td {
-   text-align: center;
-   border: 1px solid #89bbe8;
-   border-radius: 5px;
+:root {
+  --azul: #89bbe8;
+  --blanco: #fff;
+  --rojo: red;
+  --amarelo: yellow;
+  --naranja: #F09D1A;
+}
 
- }
+td{
+  text-align: center;
+  border: 1px solid var(--azul);
+  border-radius: 5px;   
+}
 
- table {
-   margin: auto;
- }
+table {
+  margin: auto;
+}
 
- button {
-   margin: 0px 50%;
- }
+input[type="numer"]{
+  width: 40px;
+  padding: 5px 5px 5px 15px;
+  border: 1px solid var(--azul);
+  border-radius: 4px;
+}
+
+fieldset {
+  margin: 2% auto;
+  background-color: var(--blanco);
+  padding: 5px 5px 5px 15px;
+  width: 60%;
+  border-radius: 4px;
+  border: 3px solid var(--azul);
+  border-left: 20px solid var(--azul);
+}
 
 
- input[type="numer"] {
-   width: 40px;
-   padding: 5px 5px 5px 15px;
-   border: 1px solid #89bbe8;
-   border-radius: 4px;
- }
+legend {
+  border: 3px solid var(--amarelo);
+  border-radius: 10px;
+  background-color: var(--azul);
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
 
- fieldset {
-   padding: 5px 5px 5px 15px;
-   width: 60%;
-   border-radius: 4px;
-   border: 3px solid #89bbe8;
-   border-left: 20px solid #89bbe8;
- }
+#texto{
+  color: var(--rojo);
+  background-color: var(--amarelo);
+  text-align: center;
+}
 
- legend {
-   border: 3px solid #89bbe8;
-   border-radius: 10px;
-   background-color: #89bbe8;
-   text-align: center;
- }
+.inpuAno{
+  width: 40px;
+}
 
- p {
-   color: red;
-   background-color: yellow;
-   text-align: center;
- }
+button{
+  background-color: hsla(37, 88%, 52%, 0.523);
+  color: var(--blanco);
+  text-align: center;
+  border-radius: 4px;
+  font-size: 15px;
+  width: 115px;
+  height: 50px;
+  border: none;
+  margin-top: 2%;
+  margin-left: 45%;
+}
 
- .inpuAno {
-   width: 40px;
- }
+button:hover{
+  background-color: var(--naranja);
+}
